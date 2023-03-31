@@ -1,0 +1,60 @@
+# CAP
+_out
+*.db
+connection.properties
+default-*.json
+.cdsrc-private.json
+gen/
+node_modules/
+target/
+temp/
+test-reports/*
+appInfo.json
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+*.dev.mtaext
+**/mta-op-*/
+
+# Other
+.DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
+
+# IDEs
+# .vscode
+# .idea
+# CAP files
+**/index.cds
+dist/
+**/*.db
+*default-env*.dev.json
+
+# Build artifacts
+**/webapp/commitid
+**/*.js.map
+srv/**/*.js
+
+
+.mtxcache.json
+# Shim and @sap/cds-common
+db/data/sap-common-Countries*.csv
+db/data/sap-common-Currencies*.csv
+db/data/sap-common-Languages*.csv
+db/data/sap-core-enum-TimeZone*.csv
+db/data/sap-core-enum-UserSource*.csv
+db/data/sap-core-enum-UserStatus*.csv
+
+*.temp.manifest.yml
+personal-deploy.env
+
+vars.env

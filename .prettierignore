@@ -1,0 +1,11 @@
+*.yaml
+*.html
+*.js
+*.mjs
+
+app/*
+ci/*
+chart/*
+.sidecarTag
+.approuterTag
+.backendTag
